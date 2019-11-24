@@ -1,0 +1,8 @@
+<p> login page</p>
+<input #loginInput required  type="text" placeholder="login">
+    <p>{{login}}</p>
+    
+    <input #passwordInput type="password" placeholder="password">
+    <p>{{password}}</p>
+
+    <button (click)="logIn(loginInput.value,passwordInput.value)">log in</button>
